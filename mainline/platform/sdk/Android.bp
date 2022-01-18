@@ -36,6 +36,9 @@ cc_prebuilt_library {
         android_arm64: {
             srcs: ["android/arm64/lib/liblog.so"],
         },
+        android_riscv64: {
+            srcs: ["android/riscv64/lib/liblog.so"],
+        },
         android_x86_64: {
             srcs: ["android/x86_64/lib/liblog.so"],
         },
@@ -112,6 +115,9 @@ cc_prebuilt_library {
         android_arm64: {
             srcs: ["android/arm64/lib/liblog.so"],
         },
+        android_riscv64: {
+            srcs: ["android/riscv64/lib/liblog.so"],
+        },
         android_x86_64: {
             srcs: ["android/x86_64/lib/liblog.so"],
         },
@@ -180,6 +186,9 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: ["android/arm64/lib/libartpalette-system.so"],
         },
+        android_riscv64: {
+            srcs: ["android/riscv64/lib/libartpalette-system.so"],
+        },
         android_x86_64: {
             srcs: ["android/x86_64/lib/libartpalette-system.so"],
         },
@@ -232,6 +241,9 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: ["android/arm64/lib/libartpalette-system.so"],
         },
+        android_riscv64: {
+            srcs: ["android/riscv64/lib/libartpalette-system.so"],
+        },
         android_x86_64: {
             srcs: ["android/x86_64/lib/libartpalette-system.so"],
         },
@@ -280,6 +292,9 @@ cc_prebuilt_library_shared {
         arm64: {
             srcs: ["arm64/lib/heapprofd_client_api.so"],
         },
+        riscv64: {
+            srcs: ["riscv64/lib/heapprofd_client_api.so"],
+        },
         x86_64: {
             srcs: ["x86_64/lib/heapprofd_client_api.so"],
         },
@@ -308,6 +323,9 @@ cc_prebuilt_library_shared {
     arch: {
         arm64: {
             srcs: ["arm64/lib/heapprofd_client_api.so"],
+        },
+        riscv64: {
+            srcs: ["riscv64/lib/heapprofd_client_api.so"],
         },
         x86_64: {
             srcs: ["x86_64/lib/heapprofd_client_api.so"],
@@ -428,6 +446,9 @@ cc_prebuilt_library_static {
         arm64: {
             srcs: ["arm64/lib/libperfetto_client_experimental.a"],
         },
+        riscv64: {
+            srcs: ["riscv64/lib/libperfetto_client_experimental.a"],
+        },
         x86_64: {
             srcs: ["x86_64/lib/libperfetto_client_experimental.a"],
         },
@@ -546,6 +567,9 @@ cc_prebuilt_library_static {
         arm64: {
             srcs: ["arm64/lib/libperfetto_client_experimental.a"],
         },
+        riscv64: {
+            srcs: ["riscv64/lib/libperfetto_client_experimental.a"],
+        },
         x86_64: {
             srcs: ["x86_64/lib/libperfetto_client_experimental.a"],
         },
@@ -630,6 +654,9 @@ cc_prebuilt_library_static {
         arm64: {
             srcs: ["arm64/lib/perfetto_trace_protos.a"],
         },
+        riscv64: {
+            srcs: ["riscv64/lib/perfetto_trace_protos.a"],
+        },
         x86_64: {
             srcs: ["x86_64/lib/perfetto_trace_protos.a"],
         },
@@ -712,6 +739,9 @@ cc_prebuilt_library_static {
     arch: {
         arm64: {
             srcs: ["arm64/lib/perfetto_trace_protos.a"],
+        },
+        riscv64: {
+            srcs: ["riscv64/lib/perfetto_trace_protos.a"],
         },
         x86_64: {
             srcs: ["x86_64/lib/perfetto_trace_protos.a"],
